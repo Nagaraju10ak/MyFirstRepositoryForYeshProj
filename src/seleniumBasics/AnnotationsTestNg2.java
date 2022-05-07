@@ -19,7 +19,8 @@ public class AnnotationsTestNg2  {
 	@BeforeTest
 	public void myTest()
 	{
-		
+		//comme
+		//sdfasdt
 		driver.get("https://www.google.com/");
 	}
 	
