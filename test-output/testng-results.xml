@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-30T13:24:15 IST" name="Default suite" finished-at="2022-04-30T13:24:53 IST" duration-ms="38132">
+    <groups>
+    </groups>
+    <test started-at="2022-04-30T13:24:15 IST" name="Default test" finished-at="2022-04-30T13:24:53 IST" duration-ms="38132">
+      <class name="seleniumBasics.ExcelDataRead_Parameterization">
+        <test-method is-config="true" signature="setPrerequsites()[pri:0, instance:seleniumBasics.ExcelDataRead_Parameterization@470734c3]" started-at="2022-04-30T13:24:15 IST" name="setPrerequsites" finished-at="2022-04-30T13:24:15 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPrerequsites -->
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:seleniumBasics.ExcelDataRead_Parameterization@470734c3]" started-at="2022-04-30T13:24:16 IST" name="setBrowser" finished-at="2022-04-30T13:24:32 IST" duration-ms="15788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="TestCase001(java.lang.String,java.lang.String)[pri:0, instance:seleniumBasics.ExcelDataRead_Parameterization@470734c3]" started-at="2022-04-30T13:24:32 IST" name="TestCase001" data-provider="data" finished-at="2022-04-30T13:24:33 IST" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase001 -->
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:seleniumBasics.ExcelDataRead_Parameterization@470734c3]" started-at="2022-04-30T13:24:33 IST" name="setBrowser" finished-at="2022-04-30T13:24:51 IST" duration-ms="18296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="TestCase001(java.lang.String,java.lang.String)[pri:0, instance:seleniumBasics.ExcelDataRead_Parameterization@470734c3]" started-at="2022-04-30T13:24:51 IST" name="TestCase001" data-provider="data" finished-at="2022-04-30T13:24:53 IST" duration-ms="1411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase001 -->
+      </class> <!-- seleniumBasics.ExcelDataRead_Parameterization -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

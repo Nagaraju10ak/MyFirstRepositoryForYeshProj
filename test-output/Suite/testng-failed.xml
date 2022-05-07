@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="seleniumBasics.TestNgBasics3">
+        <methods>
+          <include name="myTestTest"/>
+        </methods>
+      </class> <!-- seleniumBasics.TestNgBasics3 -->
+      <class name="seleniumBasics.TestNgBasics2">
+        <methods>
+          <include name="myTest2"/>
+        </methods>
+      </class> <!-- seleniumBasics.TestNgBasics2 -->
+      <class name="seleniumBasics.TestNgBasicsTest">
+        <methods>
+          <include name="myTestTest"/>
+        </methods>
+      </class> <!-- seleniumBasics.TestNgBasicsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
