@@ -21,7 +21,7 @@ public class ActionBasics {
 
 		Actions act = new Actions(driver);
 
-		// Move to Element
+		// Move to ElementMy changes uptade
 
 		/*
 		 * driver.findElement(By.xpath("//h5[text()='Tool Tip']")).click();
